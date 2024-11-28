@@ -75,7 +75,7 @@
     }
 
     .scrollable-list {
-      max-height: 130px; /* Adjust the height based on your design */
+      max-height: 150px; /* Adjust the height based on your design */
       overflow-y: auto;
       overflow-x: hidden;
   }
