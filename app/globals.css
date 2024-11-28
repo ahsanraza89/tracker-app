@@ -1,42 +1,81 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.label-style1{
+ 
+  margin-right:22%;
+  
   }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+  .label-style2{
+   
+      margin-right: 16%;
+      }
+  
+      .input-style{
+          padding: 5px 73px;
+          margin: 9px 0px;
+          border-radius: 5px;
+         border: 1px solid lightgray;
+  
+      }
+  
+      .btn1{
+          padding: 7px 105px;
+          
+          border-radius: 5px;
+         border: 1px solid lightgray;
+         background-color: #533B4D;
+         cursor: pointer;
+         color: white;
+         font-weight: bold;
+     
+  
+      }
+  
+   
+     
+  .bg-info-hover:hover{
+  
+      background-color: rgb(13 202 240);
   }
-}
+  .bg-warning-hover:hover{
+      background-color: rgb(255 193 7);
+  }
+     
+  /* Base border-right style */
+  .border-right {
+      border-right: 5px solid  /* Default border color */
+    }
+    
+    /* For income (positive amount) */
+    .bg-info-hover.border-right {
+      /* border-color: #8B8000; */
+      border-color: rgb(13 202 240);;
+      
+    }
+    
+    /* For expense (negative amount) */
+    .bg-warning-hover.border-right {
+      /* border-color: #448EE4; */
+      border-color:  rgb(255 193 7);;
+    }
+    .btn2{
+      padding: 5px 10px;
+      border: 1px solid black;
+      background-color: #533B4D;
+      color: white;
+      margin-left: -22px;
+      /* margin-top: 20px;    */
+     }
+
+    .errors-message{
+     
+      background-color: #533B4D;
+      color: white;
+      padding: 5px 15px;
+      border-radius: 4px;
+      /* margin-bottom: 10px; */
+    }
+
+    .scrollable-list {
+      max-height: 100px; /* Adjust the height based on your design */
+      overflow-y: auto;
+      overflow-x: hidden;
+  }

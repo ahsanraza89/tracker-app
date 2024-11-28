@@ -1,0 +1,71 @@
+.label-style1{
+ 
+margin-right:22%;
+
+}
+.label-style2{
+ 
+    margin-right: 16%;
+    }
+
+    .input-style{
+        padding: 5px 73px;
+        margin: 9px 0px;
+        border-radius: 5px;
+       border: 1px solid lightgray;
+
+    }
+
+    .btn1{
+        padding: 7px 105px;
+        
+        border-radius: 5px;
+       border: 1px solid lightgray;
+       background-color: #533B4D;
+       cursor: pointer;
+       color: white;
+       font-weight: bold;
+   
+
+    }
+
+    .list-items{
+        background-color: #fff; 
+       box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3); 
+       margin-bottom: 10px;
+       margin-left: -26px;
+       padding-inline: 24px;
+       padding-block: 11px;
+   }
+.bg-info-hover:hover{
+
+    background-color: rgb(13 202 240);
+}
+.bg-warning-hover:hover{
+    background-color: rgb(255 193 7);
+}
+   
+/* Base border-right style */
+.border-right {
+    border-right: 5px solid  /* Default border color */
+  }
+  
+  /* For income (positive amount) */
+  .bg-info-hover.border-right {
+    /* border-color: #8B8000; */
+    border-color: rgb(13 202 240);;
+    
+  }
+  
+  /* For expense (negative amount) */
+  .bg-warning-hover.border-right {
+    /* border-color: #448EE4; */
+    border-color:  rgb(255 193 7);;
+  }
+  .btn2{
+    padding: 5px 10px;
+    border: 1px solid black;
+    background-color: #533B4D;
+    color: white;
+    margin-left: -22px;
+  }
